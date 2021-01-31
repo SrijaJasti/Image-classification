@@ -14,7 +14,7 @@ def get_data(data_dir):
                 print(e)
     return np.array(data)
     
-Now we can easily fetch our train and validation data.
+    
 train = get_data('../input/traintestsports/Main/train')
 val = get_data('../input/traintestsports/Main/test')
  
